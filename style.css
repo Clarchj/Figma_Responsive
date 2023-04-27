@@ -1,0 +1,84 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4 px;
+    background-color: #ffffff;
+    margin: 0px 11vw 0px 11vw
+}
+
+
+a {
+    margin: 0 10px;
+    color: #000000;
+
+    text-decoration: none;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.5s ease;
+}
+
+a :hover {
+    color: #555;
+}
+
+nav {
+    width: 448px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 47px;
+    width: 48px;
+
+}
+
+.box1 {
+    height: 32px;
+    width: 83px;
+    left: 0px;
+    top: 0px;
+    border-radius: nullpx;
+    order: 0
+}
+
+.box2 {
+    height: 32px;
+    width: 80px;
+    left: 139px;
+    top: 0px;
+    border-radius: nullpx;
+    order: 1
+}
+
+.box3 {
+    height: 32px;
+    width: 79px;
+    left: 275px;
+    top: 0px;
+    border-radius: nullpx;
+    order: 2
+}
+
+.box4 {
+    height: 32px;
+    width: 38px;
+    left: 410px;
+    top: 0px;
+    border-radius: nullpx;
+    order: 3;
+    flex: none;
+    flex-grow: 0;
+}
+
+
+.icons {}
